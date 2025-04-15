@@ -5,15 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trading Para Todos</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f4f4f4; }
-        h1 { color: #007bff; margin-bottom: 20px; }
-        .cta { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-        .cta:hover { background-color: #0056b3; }
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .cta {
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .cta:hover {
+            background-color: #e6b800;
+        }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+        .membership {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .plan {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .plan a {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .plan a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
-    <h1>Bienvenido a Trading Para Todos</h1>
-    <p>Accede a señales VIP, estrategias avanzadas y educación profesional en trading.</p>
-    <a href="https://discord.gg/tuservidor" class="cta">Únete a Nuestro Discord</a>
+
+    <!-- Encabezado Principal -->
+    <header>
+        <h1>Trading Para Todos</h1>
+        <p>Mejora tus resultados con señales VIP, estrategias avanzadas y educación en trading.</p>
+        <a href="https://discord.gg/tuenlacecorrecto" class="cta">Únete a Nuestro Discord</a>
+    </header>
+
+    <!-- Sección de Membresías VIP -->
+    <section>
+        <h2>Membresías VIP</h2>
+        <p>Elige el plan que mejor se adapte a tus metas.</p>
+        <div class="membership">
+            <!-- Starter Plan -->
+            <div class="plan">
+                <h3>Starter</h3>
+                <p>Acceso básico a señales y estrategias.</p>
+                <p><strong>$20/mes</strong></p>
+                <a href="#">Suscríbete Ahora</a>
+            </div>
+            <!-- Advanced Plan -->
+            <div class="plan">
+                <h3>Avanzado</h3>
+                <p>Incluye señales premium y soporte.</p>
+                <p><strong>$50/mes</strong></p>
+                <a href="#">Suscríbete Ahora</a>
+            </div>
+            <!-- Pro Plan -->
+            <div class="plan">
+                <h3>Pro</h3>
+                <p>Acceso total a señales, estrategias y soporte personalizado.</p>
+                <p><strong>$100/mes</strong></p>
+                <a href="#">Suscríbete Ahora</a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
