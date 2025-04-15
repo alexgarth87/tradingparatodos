@@ -37,20 +37,20 @@
             text-align: center;
             padding: 20px;
         }
-        .membership, .strategy, .copytrading {
+        .membership, .strategy, .copytrading, .payment {
             display: flex;
             justify-content: center;
             gap: 15px;
             flex-wrap: wrap;
         }
-        .plan, .strategy div, .copytrading div {
+        .plan, .strategy div, .copytrading div, .payment div {
             border: 1px solid #ddd;
             padding: 15px;
             width: 250px;
             border-radius: 10px;
             background-color: #f9f9f9;
         }
-        .plan a, .strategy a, .copytrading a {
+        .plan a, .strategy a, .copytrading a, .payment a {
             background-color: #007bff;
             color: white;
             padding: 10px;
@@ -58,7 +58,7 @@
             border-radius: 5px;
             display: inline-block;
         }
-        .plan a:hover, .strategy a:hover, .copytrading a:hover {
+        .plan a:hover, .strategy a:hover, .copytrading a:hover, .payment a:hover {
             background-color: #0056b3;
         }
     </style>
@@ -72,69 +72,34 @@
         <a href="https://discord.gg/tCeZY7fBC6" class="cta">Únete a Nuestro Discord</a>
     </header>
 
-    <!-- Sección de Membresías VIP -->
-    <section>
-        <h2>Membresías VIP</h2>
-        <p>Elige el plan que mejor se adapte a tus metas.</p>
-        <div class="membership">
-            <!-- Starter Plan -->
-            <div class="plan">
-                <h3>Starter</h3>
-                <p>Acceso básico a señales y estrategias.</p>
-                <p><strong>$20/mes</strong></p>
-                <a href="#">Suscríbete Ahora</a>
-            </div>
-            <!-- Advanced Plan -->
-            <div class="plan">
-                <h3>Avanzado</h3>
-                <p>Incluye señales premium y soporte.</p>
-                <p><strong>$50/mes</strong></p>
-                <a href="#">Suscríbete Ahora</a>
-            </div>
-            <!-- Pro Plan -->
-            <div class="plan">
-                <h3>Pro</h3>
-                <p>Acceso total a señales, estrategias y soporte personalizado.</p>
-                <p><strong>$100/mes</strong></p>
-                <a href="#">Suscríbete Ahora</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de Estrategias Avanzadas -->
-    <section>
-        <h2>Estrategias Avanzadas</h2>
-        <p>Descubre cómo nuestras estrategias exclusivas te ayudan a dominar el mercado.</p>
-        <div class="strategy">
-            <!-- STG+ -->
+    <!-- Métodos de Pago -->
+    <section style="background-color: #ffffff; text-align: center; padding: 20px;">
+        <h2 style="color: #007bff;">Métodos de Pago</h2>
+        <p>Elige la opción que mejor se adapte a ti. Transacciones rápidas y seguras.</p>
+        <div class="payment" style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+            <!-- AirTM -->
             <div>
-                <h3>STG+</h3>
-                <p>Maximiza tus ganancias en mercados volátiles.</p>
-                <a href="#">Aprende Más</a>
+                <h3>AirTM</h3>
+                <p>Envía tu pago al siguiente correo:</p>
+                <p><strong>alexanvism87@gmail.com</strong></p>
             </div>
-            <!-- BOOM 500 -->
+            <!-- Neteller -->
             <div>
-                <h3>BOOM 500</h3>
-                <p>Optimiza tus operaciones con movimientos rápidos.</p>
-                <a href="#">Aprende Más</a>
+                <h3>Neteller</h3>
+                <p>Envía tu pago al siguiente correo:</p>
+                <p><strong>indicesnicdavis@gmail.com</strong></p>
             </div>
-        </div>
-    </section>
-
-    <!-- Sección de Copytrading B500 -->
-    <section style="background-color: #f4f4f4; text-align: center; padding: 20px;">
-        <h2 style="color: #007bff;">Copytrading B500</h2>
-        <p>Deja que los expertos operen por ti. ¡Empieza a ganar desde hoy!</p>
-        <div class="copytrading">
+            <!-- Tether USDT -->
             <div>
-                <h3>¿Cómo Funciona?</h3>
-                <p>1. Regístrate.<br>2. Conéctate con nuestros traders.<br>3. ¡Gana automáticamente!</p>
-                <a href="#">Empieza Ahora</a>
+                <h3>Tether (USDT)</h3>
+                <p>Envía tu pago a la dirección:</p>
+                <p><strong>Tu-Direccion-De-Billetera</strong></p>
             </div>
+            <!-- Sinpe Móvil -->
             <div>
-                <h3>Beneficios</h3>
-                <p>Ahorra tiempo, minimiza riesgos y aprende mientras ves resultados.</p>
-                <a href="#">Descubre Más</a>
+                <h3>Sinpe Móvil</h3>
+                <p>Transfiere rápido desde tu celular:</p>
+                <p><strong>+506 1234-5678</strong></p>
             </div>
         </div>
     </section>
