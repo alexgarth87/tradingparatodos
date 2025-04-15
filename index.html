@@ -37,44 +37,20 @@
             text-align: center;
             padding: 20px;
         }
-        .membership {
+        .membership, .strategy, .copytrading {
             display: flex;
             justify-content: center;
             gap: 15px;
             flex-wrap: wrap;
         }
-        .plan {
-            border: 1px solid #ddd;
-            padding: 15px;
-            width: 250px;
-            border-radius: 10px;
-            background-color: white;
-        }
-        .plan a {
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        .plan a:hover {
-            background-color: #0056b3;
-        }
-        .strategy {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-        .strategy div {
+        .plan, .strategy div, .copytrading div {
             border: 1px solid #ddd;
             padding: 15px;
             width: 250px;
             border-radius: 10px;
             background-color: #f9f9f9;
         }
-        .strategy a {
+        .plan a, .strategy a, .copytrading a {
             background-color: #007bff;
             color: white;
             padding: 10px;
@@ -82,7 +58,7 @@
             border-radius: 5px;
             display: inline-block;
         }
-        .strategy a:hover {
+        .plan a:hover, .strategy a:hover, .copytrading a:hover {
             background-color: #0056b3;
         }
     </style>
@@ -126,23 +102,39 @@
     </section>
 
     <!-- Sección de Estrategias Avanzadas -->
-    <section style="background-color: #ffffff; text-align: center; padding: 20px;">
-        <h2 style="color: #007bff; margin-bottom: 15px;">Estrategias Avanzadas</h2>
-        <p style="margin-bottom: 20px; font-size: 1.1em;">
-            Descubre cómo nuestras estrategias exclusivas te ayudan a dominar el mercado. Aumenta tu rentabilidad con resultados consistentes.
-        </p>
+    <section>
+        <h2>Estrategias Avanzadas</h2>
+        <p>Descubre cómo nuestras estrategias exclusivas te ayudan a dominar el mercado.</p>
         <div class="strategy">
             <!-- STG+ -->
             <div>
-                <h3 style="color: #007bff;">STG+</h3>
-                <p>Una estrategia creada para maximizar tus ganancias en mercados volátiles.</p>
+                <h3>STG+</h3>
+                <p>Maximiza tus ganancias en mercados volátiles.</p>
                 <a href="#">Aprende Más</a>
             </div>
             <!-- BOOM 500 -->
             <div>
-                <h3 style="color: #007bff;">BOOM 500</h3>
-                <p>Optimiza tus operaciones con una estrategia única para movimientos rápidos.</p>
+                <h3>BOOM 500</h3>
+                <p>Optimiza tus operaciones con movimientos rápidos.</p>
                 <a href="#">Aprende Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Copytrading B500 -->
+    <section style="background-color: #f4f4f4; text-align: center; padding: 20px;">
+        <h2 style="color: #007bff;">Copytrading B500</h2>
+        <p>Deja que los expertos operen por ti. ¡Empieza a ganar desde hoy!</p>
+        <div class="copytrading">
+            <div>
+                <h3>¿Cómo Funciona?</h3>
+                <p>1. Regístrate.<br>2. Conéctate con nuestros traders.<br>3. ¡Gana automáticamente!</p>
+                <a href="#">Empieza Ahora</a>
+            </div>
+            <div>
+                <h3>Beneficios</h3>
+                <p>Ahorra tiempo, minimiza riesgos y aprende mientras ves resultados.</p>
+                <a href="#">Descubre Más</a>
             </div>
         </div>
     </section>
